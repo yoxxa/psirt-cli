@@ -1,0 +1,8 @@
+[package]
+name = "psirt-cli"
+version.workspace = true
+edition.workspace = true 
+
+[dependencies]
+tokio = { workspace = true }
+clap = { workspace = true }

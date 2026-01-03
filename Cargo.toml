@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = [
+    "psirt-cli",
+]
+default-members = ["psirt-cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4.5.54", features = ["derive"] }
